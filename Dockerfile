@@ -1,4 +1,4 @@
-FROM ocaml/opam
+FROM ocaml/opam:debian-9_ocaml-4.05.0
 
 USER root
 RUN apt update && \
